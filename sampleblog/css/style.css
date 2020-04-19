@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+}
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+
+.logo {
+  font-size: 32px;
+  text-align:center;
+}
+.header-navigation {
+  width: 100%;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: white;
+  text-decoration: none;
+}
+.text-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card-contents {
+  padding: 20px;
+  display: block;
+  background-color: #fff;
+}
+.left-contents {
+  width: 600px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 300px;
+  float: left;
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.card-contents-area:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+.card-contents-list {
+  width: 100%;
+  margin-right: 35px;
+  float: left;
+}
+
+.card-image {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+}
+.card-day {
+  font-size: 10px;
+  color:black;
+  
+}
+.card-title {
+  margin:0;
+  font-size:20px; 
+  color:blue;
+}
+.card-story{
+  font-size:15px;
+  color:black;
+}
+
+.subcard-contents-area:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.subcard-contents-list {
+  width: 100%;
+  float: left;
+  margin:0 0 10px 0;
+}
+
+.subcard-image {
+  margin: 10  10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+}
+
+.subcard-day {
+  margin:0px;
+  font-size: 10px;
+  color:black;
+}
+
+.subcard-title {
+  margin:0px;
+  font-size:15px; 
+  color:blue;
+}
